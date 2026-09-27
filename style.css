@@ -38,7 +38,7 @@ header{
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
     color: rgb(240, 228, 228);
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 2.5rem;
     border-radius: 3rem;
     z-index: 1000;
 }
@@ -125,11 +125,13 @@ nav {
     display: flex;
     align-items: center;
     gap: 1rem;
-}
+    
+}   
 
 .Links { 
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
+    
 }
 li a {
     position: relative;
@@ -171,8 +173,8 @@ li a:hover::before {
     width: 100%;
 }
 .Visit-btn{
-    padding: 0.8rem 1.4rem;
-    border-radius: 2rem;
+    padding: 0.8rem 1.5 rem;
+    border-radius: 3rem;
     border: none;
     font-weight: 500;
     font-size: 1rem;
@@ -246,8 +248,7 @@ section{
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(80, 19, 1));
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
-} 
+}
 [data-theme="dark"] .info-box h1 {
     background: linear-gradient(to right, rgb(218, 223, 226), rgb(5, 39, 133)); /* lighter gradient for dark backgrounds */
     background-clip: text;
@@ -522,9 +523,7 @@ footer ul li a{
 }
 [data-theme="dark"] footer ul li a {
     color: #f0f0f0; 
-}
-
-@media(max-width:1280px){
+} @media(max-width:1280px){
     header{
         padding: 1rem 2rem;
         gap:2rem;
@@ -550,7 +549,7 @@ footer ul li a{
     .input-box i{
         font-size: 2.5;
     }
-}
+} 
 @media(max-width:760px){
     header{
         gap: 1rem;
@@ -689,4 +688,4 @@ footer ul li a{
         gap: 1rem;
     }
 
-}
+} 

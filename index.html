@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>  
+    <header class = "header">
+   <a href="#" class="logo" id="theme-toggle">
+    <span class="name-text" id="animated-name">Roque Sarmiento</span>
+    <span class="icon-track">
+        <i class="fa-solid fa-sun" id="sun-icon"></i>
+        <i class="fa-regular fa-moon" id="moon-icon"></i>
+    </span>
+</a>
+    <nav>
+    <ul class = "Links">
+        <li>
+            <a href = "#About">AboutMe</a>
+        </li>
+         <li>
+            <a href = "#Experience">Experience</a>
+        </li>
+         <li>
+            <a href = "#Project">Projects</a>
+        </li>
+         <li>
+            <a href = "#Contacts">Contacts</a>
+             
+        </li>
+       
+    </ul>
+     <i class="fa-solid fa-bars" id="Menu-icon"></i>
+
+    <button class ="Visit-btn">Visit Github</button>
+    </nav>
+    </header>
+    
+    <section id="About" class=" about">
+        <div class = "about-container">
+            <img src ="picture/Roque_Sarmiento.jfif" alt="Roque Sarmiento photo" class ="hero-img">
+
+            <div class ="info-box"> 
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Roque Sarmiento</h1>
+                    <span>Computer Science Student</span>
+                </div>   
+
+            <div class="btn-group">
+                <div class ="btn"> Download CV</div>
+                <div class = "btn"> Contacts</div>
+                </div>
+            <div class="socials">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="Experience" class="Experience">
+    <div class="Experience-container">
+        <h2 class="section-title">Experience</h2>
+        
+        <div class="Experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Frontend Development</span>
+                    <h3>Ongoing </h3>
+                    <p>Building a responsive portfolio site using HTML, CSS, and JavaScript as part of coursework.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-palette"></i>
+                    <span>Self Directed Learning</span>
+                    <h3>1 Month</h3>
+                    <p>Learned HTML, CSS, C++ and other languages fundamentals through online resources and hands on practice.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-desktop"></i>
+                    <span>Academic Coursework</span>
+                    <h3>Ongoing</h3>
+                    <p>Learning object-oriented programming principles classes, inheritance, and encapsulation using Java.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Debugging Practice</span>
+                    <h3>Ongoing</h3>
+                    <p>Tracing and fixing runtime errors and logic bugs in C++ and Java class exercises like in GDB.</p>
+                </div>
+            </div>
+
+            <img src="picture/Roque_Sarmiento.jfif" alt="Roque Sarmiento" class="Experience-img">
+        </div>
+    </div>
+</section>
+
+<section id="Project" class="Project">
+
+    <h2 class="section-title">Recent Projects</h2>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="picture/Website_Projects.jfif" alt="">
+            <h3>Projects</h3>
+            <p>Description for my Projects</p>
+            <div class="button-group">
+                <div class="btn">Github Repo</div>
+                <div class="btn">Live Demo</div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="picture/Website_Projects.jfif" alt="">
+            <h3>Projects</h3>
+            <p>Description for my Projects</p>
+            <div class="button-group">
+                <div class="btn">Github Repo</div>
+                <div class="btn">Live Demo</div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="Contacts" class="Contacts">
+    <h2 class="section-title">Contact me</h2>
+    <div class="input-box">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" value="Roqz0Sarmiento@gmail.com" readonly>
+    </div>
+    <button class="btn">Submit</button>
+</section>
+
+<footer>
+    <ul>
+        <li>
+            <a href="#About">About</a>
+        </li>
+        <li>
+            <a href="#Experience">Experience</a>
+        </li>
+        <li>
+            <a href="#Project">Projects</a>
+        </li>
+        <li>
+            <a href="#Contacts">Contacts</a>
+        </li>
+    </ul>
+    <p class="CopyRight" All CopyRight Reserved || Roque Sarmiento></p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
